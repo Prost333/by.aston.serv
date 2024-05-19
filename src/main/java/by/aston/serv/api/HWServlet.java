@@ -11,11 +11,11 @@ import java.io.IOException;
 public class HWServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().write("Hello World, ");
+        resp.getWriter().write("Hello World");
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().write("Hello World, ");
+        resp.getWriter().write("Hello World");
     }
 }
